@@ -1,0 +1,74 @@
+﻿				Assembler
+Üstünlükləri:
+1.Assambler dili masın dili ilə muqayisədə daha anlaşılandır və istifadə etmək asandır.
+2.Effektiv yaddasa malikdir.
+3.Yaddas yerlərinin izlərini saxlamaq tələb olunmur.
+4.Sürət gostəricisi daha yüksəkdir.
+5.Daxil etmələr və silinmələr asandır.
+6.Hardware Oriented.
+7.Eyni nəticəni yerinə yetirmək ucun daha az təlimat tələb edir.
+Zəiflikləri:
+1.Bu cur dillərdə yazılmış uzun proqram kicik ölçülü komputerlərdə tətbiq oluna bilməz.
+2.Proqramı kodlaşdırmaq və ya yazmaq üçün çox vaxt tələb olunur, çünki naturası daha mürəkkəbdir.
+3.Sintaksisini yadda saxlamaq çətindir.
+4.kompüterlər arasında proqramın daşınabilirliyinin olmaması.
+5.SDK yoxdur (Sistem İnkisafı Seti).
+Paradiqmaları:
+imperative(əmrlərlə icra olunan),unstructured(qeyri-strukturlaşdırılmış).
+
+*Assembler dili əsasən birbaşa hardware manipulyasiyası, ixtisaslaşdırılmış prosessor təlimatlarına daxil olmaq və ya kritik performans məsələlərini həll etmək üçün istifadə olunur.
+				Javascript
+Üstünlükləri:
+1.Sürət. Müçtərilər üçün JavaScript çox tezdir, çünki bu, müştərilər tərəfindən brauzerin dərhal işə salınması mümkündür.
+2.Sadəlik. JavaScript öyrənmək və həyata keçirmək üçün olduqca sadədir.
+3.Populyarlıq. İnternetdə hər yerdə JavaScript istifadə olunur. JavaScript öyrənmək üçün resurslar çoxdur. StackOverflow və GitHub, Javascript istifadə edən bir cox layihəyə sahibdir .
+4.Birlikdə əməkdaşlıq. JavaScript digər dillərlə yaxşı oynayır və çox müxtəlif proqramlarda istifadə edilə bilər. PHP və ya SSI skriptlərindən fərqli olaraq, JavaScript fayl uzantısından asılı olmayaraq hər hansı bir veb səhifəyə daxil edilə bilər. JavaScript də Perl və PHP kimi digər dillərdə yazılmış skriptlər içərisində də istifadə edilə bilər.
+5.Server Yuku. Müştəri tərəfi olaraq, veb-sayt serverinə tələbat azalır.
+6.Genişləndirilmiş funksionallıq
+7.Yenilənmələr. EcmaScript 5-in (Javascript-in əsaslandırdığı script xüsusiyyətləri) çıxmasından sonra, Ecma İnternational hər il JavaScript-ni yeniləşdirməyə həsr etmişdir. İndiyə qədər 2017-ci ildə ES6 üçün brauzer dəstəyi almış və gələcək aylarda dəstəklənən ES7-ni gozlənilir.
+Zəiflikləri:
+1.Müştərilər üçün Təhlükəsizlik. Kod, istifadəçilərin kompüterində yerinə yetirildiyi ucun bəzi hallarda zərərli məqsədlər ücün istifadəsi mümkündür. Bəzi insanların Javascripti aradan qaldırmağına bir səbəb də budur.
+2.Brauzer dəstəyi. JavaScript bəzən müxtəlif brauzerlər tərəfindən fərqlənir. 
+Paradiqmaları:
+object-oriented (prototype-based)(obyektyönlu), imperative(əmrlərlə icra olunan), functional(funksional).
+*Veb səhifələrdə yazılan kod, web proqramçı tərəfindən javascript tərəfindən veb brauzerinə göndəriləcək və keçid düyməsinin funksiyası siqnalın hər hərəkətində dəyişəcək şəkildə tərtib edilir. Beləliklə, istifadəçilər internetdə belə qabaqcıl proqramları işə salıb məlumat əldə edə bilərlər. Bundan əlavə, Javascript əsasən vizual animasiyalar üçün istifadə olunur. Bir çox xəbər saytında, ana səhifədəki slide-ın adı müxtəlif xəbərlərin fərqli animasiyalarını təmin etməklə JavaScript tərəfindən təmin edilir. JavaScript şəkilləri kliklədikdə böyüdülmüş və animasiya fondan ayrılmış və ekranda göstərilmişdir. Bunlar yalnız bir neçə nümunədir. Bu kimi yüz minlərlə tətbiq var.
+				C
+Üstünlükləri:
+1.C dili bir çox digər tanınmış dillər üçün bir bina. C dilində müxtəlif məlumat növləri və güclü operatorlar var. Bununla əlaqədar, C dilində yazılmış proqramlar effektiv, sürətli və asan başa düşülür.
+2. C yüksək portativ dildir. Bu, bir kompüter üçün yazılmış C proqramlarının asanlıqla başqa bir kompüterdə heç bir dəyişiklik etmədən və ya bir az dəyişiklik etməklə işləyə biləcəyini bildirir.
+3.ANSI C-də yalnız 32 əsas söz var və onun gücü daxili funksiyalarındadır. Proqramları inkişaf etdirmək üçün istifadə edilə bilən bir sıra standart funksiyalar mövcuddur.
+4. C-nin digər əhəmiyyətli üstünlüyü onun özünü genişləndirmək qabiliyyətidir. A C proqramı əsasən C kitabxanası tərəfindən dəstəklənən funksiyaların toplusudur və bu, öz funksiyalarını C kitabxanasına əlavə etmək üçün asanlaşdırır. Çox sayda funksiyanın mövcudluğuna görə, proqramlaşdırma vəzifəsi sadədir.
+5. C dili bir strukturlaşdırılmış proqramlaşdırma dilidir. Bu istifadəçi funksiya modulları və ya blokları baxımından bir problemi düşünməyə imkan verir. Bu modulların toplanması tam bir proqramdır. Bu modul quruluş, proqramın incələnməsi, test edilməsi və saxlanmasını asanlaşdırır.
+Zəiflikləri:
+1. C-də OOP konsepsiyası yoxdur, ona görə də C ++ inkişaf edir.
+2.C dilində işləmə müddəti yoxdur.
+3. Heç bir ciddi tip yoxlanışı yoxdur. Məsələn, tam ədədi keçə bilərik.
+4. C ad boşluğu anlayışı yoxdur.
+5. Quruluşçu və ya dağıdıcı konsepsiyası yoxdur.
+Paradiqmaları:
+Imperative, procedural,structured
+*İstifadə etdiyimiz bir çox cihaz və proqram C dili ilə inkişaf etdirilir. Həm də dünyanın ən məşhur əməliyyat sistemlərindən biri olan Linux, Python dili də C ilə inkişaf edir. Çox proqram texnologiyalarının çox əsasında C kodları istifadə olunur.
+Daxili sistemlər sahəsində C dilinin istifadəsinə "Yerləşdirilmiş C - Daxili(embended) C" adı verilir. "Yerləşdirilmiş C" adlı bir fərqli dil yoxdur. Bu ifadə microcontrollers proqramı üçün istifadə edilən C dilində istifadə olunur. 
+				Asp.net
+Üstünlükləri:
+1.ASP.NET, MVC arxitekturasını izləyir, bu proqramın ayrı giriş, proses və çıxış imkan verir. Bu üç səviyyəli arxitektura, Model-View-Controller bir-birinə əlaqəli hissələrə malikdir və proqram təminatının xüsusi inkişaf aspektlərini idarə edə bilər.
+2.Kodlama müddətini azaldır.Framework texnologiyası xüsusilə böyük aplikasiyalar hazırladığınız zaman kodlama müddətinin azaldılmasına böyük köməkdir. Kod təhlilinin müxtəlif növləri var, buna görə də pis bir kod yazma şansınız yoxdur. Kod baxışı kod keyfiyyətinin yaxşılaşdırılmasına kömək edəcəkdir.
+3. Bəzi qutu xüsusiyyətlərindən ibarətdir.ASP.NET, inkişaf etmiş performans və miqyaslaşdıra bilməni təmin edir. O, həmçinin yalnız vaxtında tərtibat, erkən bağlanma, optimallaşdırma və caching xidmətləri kimi xüsusiyyətlərlə gəlir və onlar da performansın bir neçə çarxını daha yüksək səviyyədə artırmaq üçün xidmət edirlər. Buradakı kodlar ənənəvi ASP səhifələr kimi şərh edilmir.
+4.Dünya səviyyəli alət qutusu.Framework Visual Studio kompleks inkişaf mühiti vasitəsilə olduqca zəngin bir alət qutusu ilə gəlir. Bu alət qutusu framework üçün çox əhəmiyyətli bir bina framework-ü kimi çıxış edir. Alət qutusu drag-and-end kimi xüsusiyyətləri ilə məşhurdur.
+açılan server WYSIWYG tənzimləməsini və avtomatik yerləşdirməni nəzarət edir.
+5.Güc və rahatlıq təmin edir.Framework dilinin ümumi dil işləmə müddəti əsasında qurulur, buna görə bütün web proqram inkişafçıları bütün platformanın rahatlığı və gücünü istifadə edə bilərlər. Həm də dil müstəqildir, belə ki, aplikasiya üçün dil seçə və hətta bir neçə dildə aplikasiyanızı ayıra bilərsiniz.
+6. Sadəlik.Hər bir məsələ asanlıqla yerinə yetirilə bilər. Ümumi dil işləmə müddəti, zibil toplanması və avtomatik istinad sayılması kimi xidmətlər ilə, inkişaf prosesini sadə bir hala gətirir. Framework tətbiq məntiqini və təqdimat kodunu ayırmaq üçün istifadəçi interfeyslərini yaratmağa imkan verir.
+7.Şəxsiləşdirmə və genişləndirmə. ASP.NET əməliyyat sisteminin alt komponentini öz xüsusi hazırlanmış komponentlərinizin köməyi ilə asanlıqla genişləndirə və ya dəyişdirə bilərsiniz. Bunları tətbiq etmək daha da asanlaşdı.
+8.Təhlükəsizlik.Təhlükəsizlik, framework dilinin yaxşı bir xüsusiyyətidir. Windows kimlik təsdiqləməsi və hər tətbiq konfiqurasiya xüsusiyyətləri ilə təhlükəsiz aplikasiyaları inkişaf etdirə bilərsiniz.
+9. İdarəetmə.Framework-ün əla idarəedici xüsusiyyətləri mətn əsaslı iyerarxik konfiqurasiya sistemi ilə təmin edilir. Və bu konfiqurasiyaları düz mətnlər kimi birləşdirildikdən sonra yeni parametrləri tətbiq etmək üçün yerli idarəetmə vasitələrindən istifadə edə bilərsiniz. Bu, vəzifələri daha da asanlaşdıran, heç bir server yenidən başlamaması və ya onları ayrı-ayrı yerləşdirmə zərurəti ilə işləyən tərtib edilmiş kodu dəyişdirir.
+10.Davamlı monitorinqin faydası.Davamlı və daimi monitorinq ASP.NET-in inanılmaz xüsusiyyətidir. Proqramların, komponentlərin və səhifələrin özləri haqqında narahat olmayın. Proqram belə qeyri-qanuni hadisələrə baxır və bir şey olarsa (məsələn, sonsuz döngələrin yaddaş sıçrayışları) baş verərsə, dərhal fəaliyyəti məhv edərək və özünü yenidən başladacaq.
+Zəiflikləri:
+1.Təhlükəsizlik çərçivənin üstünlüklərindən biri kimi qeyd edilsə də aplikasiyaları qorumaq üçün əlavə diqqət yetirilməlidir.
+2. Qiymətli.Açıq mənbə alternativlərinə nisbətən ASP.NET, SQL Server lisenziyaları, Visual Studio lisenziyaları, Windows server lisenziyaları, və s. Kimi xərcləri olduğu kimi, bahalıdır. Bundan əlavə, framework-ün saxlanması çox bahalıdır və digər dillərdən daha çox web server resurslarından, məsələn, PHP-dən istifadə etmək olar. Bu, veb server resurslarının daha çox sayını tələb edir.
+3. Framework sənədləri istənildiyi qədər yaxşı deyil və MVC aplikasiyalarını qurarkən problemlərlə üzləşə bilinər.
+4.ASP.NET əsasları kifayət qədər yaxşı deyil.İstifadəçilər ASP.NET cəbhəsi hələ də çox xammal olduğunu söyləyirlər. Belə ki, aplikasiya azad olmağa(release) hazır olduqda çox diqqətli olmalıyıq, müəyyən kodlar işləməyəcək.
+5.Proqramda dəyişikliklər etmək.Dəyişikliklər proqramınızın(app) növbəti versiyasında işləməyəcəkdir. 
+6. ASP aplikasiyası bir serverdən başqa birinə portativdir.Bir ASP web proqramında konfiqurasiya parametrləri qaranlıqdır və IIS metatabanında saxlanılır. Server maşınında mülkiyyət formatında saxlanıldığı üçün metatabanına daxil olmaq üçün Internet Service Manager kimi kommunallara ehtiyacınız var.Parametrləri manipulyasiya etmək və çıxarmaq çətin bir vəzifədir, çünki bunun dəstəyi olduqca məhduddur.
+Paradiqmaları:
+structured,imperative,object-oriented(in my opinion)
+*Asp.net ilə web proqram hazırlamaq üçün .net dillərindən (C #, VB.net ..) istifadə edilə bilər. .Net platformasının obyektləri Asp.net-də də istifadə edilə bilər. Asp.net ilə bir web proqram inkişaf etdirmək üçün Visual Studio istifadə edirəm.
